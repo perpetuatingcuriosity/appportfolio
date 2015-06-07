@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Main Activity -->
+    <color name="button_background">@color/material_red_500</color>
+    <color name="button_background_featured">@color/material_amber_500</color>
+
+    <!-- Material Colours-->
+    <color name="material_red_500">#F44336</color>
+    <color name="material_amber_500">#FFC107</color>
+
+    <!-- General -->
+    <color name="app_white">#FFFFFF</color>
+
+</resources>

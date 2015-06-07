@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:buttonStyle">@style/ButtonMain</item>
+    </style>
+
+    <!-- Button Style -->
+    <style name="ButtonMain" parent="Base.Widget.AppCompat.Button">
+        <item name="android:minWidth">175dp</item>
+        <item name="android:background">@color/button_background</item>
+        <item name="android:layout_margin">@dimen/main_button_margin</item>
+        <item name="android:layout_marginBottom">50dp</item>
+        <item name="android:textColor">@color/app_white</item>
+    </style>
+
+</resources>
