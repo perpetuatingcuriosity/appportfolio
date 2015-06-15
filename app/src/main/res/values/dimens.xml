@@ -4,5 +4,8 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
 
     <!-- Main Activity dimens -->
-    <dimen name="main_button_margin">16dp</dimen>
+    <dimen name="main_button_minWidth">250dp</dimen>
+    <dimen name="main_button_margin">4dp</dimen>
+    <dimen name="main_title_padding">16dp</dimen>
+
 </resources>

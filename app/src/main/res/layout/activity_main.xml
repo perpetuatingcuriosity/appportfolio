@@ -9,6 +9,8 @@
         android:text="@string/main_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/material_red_500"
+        android:padding="@dimen/main_title_padding"
         android:textAppearance="@style/TextAppearance.AppCompat.Headline"
         android:layout_centerHorizontal="true"/>
 
@@ -18,44 +20,33 @@
         android:layout_below="@+id/main_title"
         android:orientation="vertical"
         android:layout_marginTop="@dimen/activity_horizontal_margin"
-        android:layout_marginBottom="@dimen/activity_horizontal_margin">
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        android:layout_centerHorizontal="true">
 
         <Button android:id="@+id/main_button_spotify"
-            android:text="@string/app_title_spotify"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="center" />
+            style="@style/MainButtonStyle"
+            android:text="@string/app_title_spotify" />
 
         <Button android:id="@+id/main_button_scores"
-            android:text="@string/app_title_scores"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="center"  />
+            style="@style/MainButtonStyle"
+            android:text="@string/app_title_scores" />
 
         <Button android:id="@+id/main_button_library"
-            android:text="@string/app_title_library"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="center"  />
+            style="@style/MainButtonStyle"
+            android:text="@string/app_title_library" />
 
         <Button android:id="@+id/main_button_build_bigger"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/app_title_build_bigger"
-            android:gravity="center"  />
+            style="@style/MainButtonStyle"
+            android:text="@string/app_title_build_bigger" />
 
         <Button android:id="@+id/main_button_xyz"
-            android:text="@string/app_title_xyz"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="center"  />
+            style="@style/MainButtonStyle"
+            android:text="@string/app_title_xyz" />
 
         <Button android:id="@+id/main_button_capstone"
+            style="@style/MainButtonStyle"
             android:text="@string/app_title_capstone"
-            android:background="@color/button_background_featured"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="center"  />
+            android:background="@color/button_background_featured"/>
 
     </LinearLayout>
 
